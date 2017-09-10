@@ -1,0 +1,90 @@
+@import './app/vendor/semantic.min.css';
+
+body {
+  background-color: #191919;
+}
+
+.ui.menu {
+  background-color: #0C0C0C;
+}
+
+.ui.menu .item {
+  color: #16AB39;
+}
+
+.ui.menu a.item:hover {
+  color: #16AB39;
+  background-color: #000;
+}
+
+.ui.form .field>label {
+  color: #FFF;
+}
+
+.ui.menu .item img.logo {
+    margin-right: 1.5em;
+}
+
+.ui.header {
+  color: #F5FEF6;
+}
+
+form.ui.segment.form {
+  background-color: #0C0C0C;
+  margin-top: 2em;
+}
+
+form.form:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.votes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #52D55F;
+  padding: 1em 0;
+  border-radius: 5px;
+}
+
+.ui.grid.posts {
+  margin-top: 2em;
+}
+
+.meta {
+  color: #9A9A9A
+}
+
+.ui.grid>.row>.column.votes {
+  display: flex;
+}
+
+ul.ui.list li:before {
+  content: '';
+}
+
+.voters {
+  clear: both;
+  width: 100%;
+}
+
+a {
+  color: #16AB39;
+}
+
+a:hover {
+  color: #13D02F
+}
+
+
+app-article {
+  padding: 2px;
+}
+
+app-article:hover {
+  background-color: #000;
+}
