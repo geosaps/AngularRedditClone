@@ -11,8 +11,8 @@ export class ArticleComponent implements OnInit {
 	@HostBinding('attr.class') cssClass='row';
 	@Input() article: Article;
 
-  private arrowUp = '../../assets/upload.svg';
-  private arrowDown = '../../assets/download.svg'
+  public arrowUp = '../../assets/upload.svg';
+  public arrowDown = '../../assets/download.svg'
 
   constructor() {}
 
